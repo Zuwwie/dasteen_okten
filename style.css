@@ -55,8 +55,6 @@ header nav ul {
     align-items: center;
     justify-content: space-between;
     color: #2B2C34;
-
-    /* 20 px - Sub Heading 2 */
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -241,6 +239,7 @@ header nav ul li:nth-child(5) button {
 
 .section_two .card_box .card:nth-child(3) {
     background: #6246EA;
+    color: white;
 }
 
 .section_two .card_box .card:nth-child(3) img {
@@ -424,6 +423,7 @@ header nav ul li:nth-child(5) button {
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+    margin-bottom: 10px;
 }
 
 .section_subscribe > div > div > span {
@@ -545,7 +545,7 @@ footer .footer_main_section .menuBar .box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 25px;
+    gap: 20px;
     color: #2B2C34;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 18px;
